@@ -21,7 +21,7 @@
 
 ## 运行
 
-执行命令 `docker run -d -p <host_port>:<container_port> <image_name> --restart=always`
+执行命令 `docker run -d -p <host_port>:<container_port> --restart=always <image_name>`
 - -d 后台运行
 - -p 端口映射
 - --restart=always 开机启动
